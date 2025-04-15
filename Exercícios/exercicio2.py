@@ -1,6 +1,6 @@
-num = int(input("Insira um numero entre 1 a 13: "))
+num = int(input("Insira um numero: "))
 
-if num % num == 0 and num % 2 != 0 and num % + 3 != 0:
-    print("É um número primo")
+if (num%2==0 and num!=2) or (num%3==0 and num!=3):
+    print("Número não é primo")
 else:
-    print("Não é um número primo")
+    print("Número é primo")
